@@ -1,4 +1,3 @@
 const incredibilis = require('incredibilis');
-incredibilis.helloEarth();
-class Robot extends incredibilis.helloEarth { 
-}
+const robot = new incredibilis.helloEarth("Bob")
+console.log(robot.name)
